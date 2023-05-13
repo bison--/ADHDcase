@@ -14,8 +14,15 @@ Base on the tweet from @forestvanslyke (https://twitter.com/forestvanslyke/statu
 
 ## use
 
-Next to the address bar there is either a puzzle icon there you can clock and PIN the ADHDcase plugin, ot it is shown directly.  
-Select a text on any website and click the  
+The ADHDcase plugin is either:
+
+* Next to the address on the right.  
+
+or
+  
+* Next to the address bar on the right is a puzzle icon, click it and there you can click and PIN the ADHDcase plugin for easy access.
+
+Select a text on any website and click the plugin icon, then the `Make selected text bolder` button.
 
 ## development
 
