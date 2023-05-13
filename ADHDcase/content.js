@@ -40,10 +40,11 @@ function boldFirstSyllable(word) {
     }
     for (let i = 1; i < word.length; i++) {
         if (vowels.includes(word[i].toLowerCase())) {
-            return word.substring(0, i) + '<b>' + word[i] + '</b>' + word.substr(i + 1);
+            return '<b>' + word.substring(0, i + 1) + '</b>' + word.substr(i + 1);
         }
     }
     return '<b>' + word.charAt(0) + '</b>' + word.substr(1);
 }
+
 
 
