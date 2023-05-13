@@ -12,9 +12,7 @@ function boldFirstLetterOfAllText() {
         let text = all[i].innerText;
         let words = text.split(' ');
         for (let j = 0; j < words.length; j++) {
-            if (words[j].length > 0) {
-                words[j] = '<b>' + words[j].charAt(0) + '</b>' + words[j].substr(1);
-            }
+            words[j] = boldFirstSyllable(words[j]);
         }
         all[i].innerHTML = words.join(' ');
     }
@@ -25,19 +23,27 @@ function boldFirstLetterOfSelectedText() {
     let selectedText = selection.toString();
     let words = selectedText.split(' ');
     for (let j = 0; j < words.length; j++) {
-        if (words[j].length > 0) {
-            words[j] = '<b>' + words[j].charAt(0) + '</b>' + words[j].substr(1);
-        }
+        words[j] = boldFirstSyllable(words[j]);
     }
     let newContent = words.join(' ');
     let range = selection.getRangeAt(0);
     range.deleteContents();
-
-    // create a new element and set its innerHTML to the new content
     let newNode = document.createElement("span");
     newNode.innerHTML = newContent;
-
-    // append the new node to the range
     range.insertNode(newNode);
 }
+
+function boldFirstSyllable(word) {
+    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    if (word.length === 1 || vowels.includes(word[0])) {
+        return '<b>' + word.charAt(0) + '</b>' + word.substr(1);
+    }
+    for (let i = 1; i < word.length; i++) {
+        if (vowels.includes(word[i].toLowerCase())) {
+            return word.substring(0, i) + '<b>' + word[i] + '</b>' + word.substr(i + 1);
+        }
+    }
+    return '<b>' + word.charAt(0) + '</b>' + word.substr(1);
+}
+
 
