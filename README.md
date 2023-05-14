@@ -7,12 +7,24 @@ Base on the tweet from @forestvanslyke (https://twitter.com/forestvanslyke/statu
 ## manual installation
 
 * clone the repo
+
+### Chrome
+
 * open chrome://extensions
 * enable `Developer Mode` on the upper right top
-* drag the `ADHDcasePlugin` sub folder into the browser tab
-  * or click the `load extension` button and select the `ADHDcasePlugin` directory
+* drag the `ADHDcasePluginChrome` sub folder into the browser tab
+  * or click the `load extension` button and select the `ADHDcasePluginChrome` directory
+
+### Firefox
+
+* Open Firefox and go to `about:debugging`
+* Click "This Firefox".
+* Click "Load Temporary Add-on".
+* Open the extension's `ADHDcasePluginFirefox` directory and select any file inside the folder.
 
 ## use
+
+### Chrome
 
 The ADHDcase plugin is either:
 
@@ -24,9 +36,15 @@ or
 
 Select a text on any website and click the plugin icon, then the `Make selected text bolder` button.
 
+### Firefox
+
+Next to the address bar on the right is a puzzle icon, click it and there you can click and PIN the ADHDcase plugin for easy access.
+
+Select a text on any website and click the plugin icon, then the `Make selected text bolder` button.
+
 ## development
 
-After dragging the folder inti the browser, it seems chrome keeps a file-system hook on it.
+After dragging (adding) the plugin folder into the browser, it seems chrome and firefox keeping a file-system hook on it.
 All changes to the plugin are instantly present when reloading a website. 
 
 ## known issues
