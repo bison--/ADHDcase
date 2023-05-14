@@ -22,18 +22,11 @@ Base on the tweet from @forestvanslyke (https://twitter.com/forestvanslyke/statu
 * Click `Load Temporary Add-on`.
 * Open the extension's `ADHDcasePluginFirefox` directory and select any file inside the folder.
 
-### Word - EXPERIMENTAL!
+### Word Add-In
 
-**EXPERIMENTAL! / NOT TESTET**
-
-To test your add-in, you can side-load it in Word:
-
-* Open Word and create a new document.
-* Click on Insert > Office Add-ins.
-* In the Office Add-ins box, click on My Add-ins > Upload My Add-in.
-* Browse to the location of the `ADHDcasePluginWord` folder, select the `ADHDcaseManifest.xml` file, and click Upload.
-
-You should now see your add-in listed under My Add-ins. Click on it to open it.
+Removed the Word Add-in.  
+It didn't worked on Jujiblas system and the side-load ability of Word 365 was removed/limited whatever in my machine (see: https://github.com/OfficeDev/office-js/issues/705#issuecomment-1546854380).    
+I didn't get it to work and I just gave up, so look in the git history if you want to take a shot on that.   
 
 ## use
 
