@@ -22,6 +22,10 @@ Base on the tweet from @forestvanslyke (https://twitter.com/forestvanslyke/statu
 * Click `Load Temporary Add-on`.
 * Open the extension's `ADHDcasePluginFirefox` directory and select any file inside the folder.
 
+### Word Macro
+
+Watch the Installation here: https://youtu.be/CeXbqJfR5aU (german UI)
+
 ### Word Add-In
 
 Removed the Word Add-in.  
