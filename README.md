@@ -22,6 +22,19 @@ Base on the tweet from @forestvanslyke (https://twitter.com/forestvanslyke/statu
 * Click "Load Temporary Add-on".
 * Open the extension's `ADHDcasePluginFirefox` directory and select any file inside the folder.
 
+### Word - EXPERIMENTAL!
+
+**EXPERIMENTAL! / NOT TESTET**
+
+To test your add-in, you can side-load it in Word:
+
+* Open Word and create a new document.
+* Click on Insert > Office Add-ins.
+* In the Office Add-ins box, click on My Add-ins > Upload My Add-in.
+* Browse to the location where you saved the manifest file, select it, and click Upload.
+
+You should now see your add-in listed under My Add-ins. Click on it to open it.
+
 ## use
 
 ### Chrome
