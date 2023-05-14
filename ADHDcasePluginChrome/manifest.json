@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "ADHDcase",
-    "description": "Makes text on websites start bold, making it faster readable for most ADHD folks.\n\n",
+    "description": "This extension makes the first syllable of each word on a webpage bold, making it faster readable for most ADHD folks.",
     "version": "0.0.1",
     "permissions": [
         "activeTab"

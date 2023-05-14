@@ -5,7 +5,7 @@
     <ProviderName>bison</ProviderName>
     <DefaultLocale>en-US</DefaultLocale>
     <DisplayName DefaultValue="ADHDcase" />
-    <Description DefaultValue="This add-in makes the first syllable of each word in the selected text bold."/>
+    <Description DefaultValue="This add-in makes the first syllable of each word in the selected text bold, making it faster readable for most ADHD folks."/>
     <Hosts>
         <Host Name="Document" />
     </Hosts>
