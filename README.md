@@ -31,7 +31,7 @@ To test your add-in, you can side-load it in Word:
 * Open Word and create a new document.
 * Click on Insert > Office Add-ins.
 * In the Office Add-ins box, click on My Add-ins > Upload My Add-in.
-* Browse to the location where you saved the manifest file, select it, and click Upload.
+* Browse to the location of the `ADHDcasePluginWord` folder, select the `ADHDcaseManifest.xml` file, and click Upload.
 
 You should now see your add-in listed under My Add-ins. Click on it to open it.
 
