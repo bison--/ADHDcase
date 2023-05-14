@@ -1,5 +1,5 @@
 # ADHDcase
-A chrome plugin that makes text on websites start bold, making it faster readable for most ADHD folks.
+A cross-browser plugin that makes words on websites start bold, making it faster readable for most ADHD folks.
 
 Base on the tweet from @forestvanslyke (https://twitter.com/forestvanslyke/status/1628879347426951169)
 
