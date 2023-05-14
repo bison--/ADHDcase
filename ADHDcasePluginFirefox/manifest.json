@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "ADHDcase",
     "description": "This extension makes the first syllable of each word on a webpage bold when a button is clicked.",
-    "version": "1.0",
+    "version": "0.0.1",
     "permissions": ["activeTab"],
     "browser_action": {
         "default_icon": "icon.png",
