@@ -4,7 +4,8 @@
     "description": "This extension makes the first syllable of each word on a webpage bold, making it faster readable for most ADHD folks.",
     "version": "0.0.1",
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "scripting"
     ],
     "action": {
         "default_icon": "icons/icon.png",

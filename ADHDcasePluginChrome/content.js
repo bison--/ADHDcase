@@ -1,10 +1,15 @@
-chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
-    if (request.text === 'bold_first_letter') {
+window.addEventListener("message", (event) => {
+    // We only accept messages from ourselves
+    if (event.source !== window)
+        return;
+
+    if (event.data.text === 'bold_first_letter') {
         boldFirstLetterOfAllText();
-    } else if (request.text === 'bold_selected_first_letter') {
+    } else if (event.data.text === 'bold_selected_first_letter') {
         boldFirstLetterOfSelectedText();
     }
-});
+}, false);
+
 
 function boldFirstLetterOfAllText() {
     let all = document.body.getElementsByTagName('*');
